@@ -128,5 +128,5 @@ async def on_guild_channel_create(channel):
   while True:  
     await channel.send(random.choice(SPAM_MESSAGE))
     await webhook.send(random.choice(SPAM_MESSAGE), username=random.choice(WEBHOOK_NAMES))
-token = ("OTgyNTk3OTA0MDc2MjQyOTg0.GyPPZs.hVBsiZSC5rCqgZjm3QmR9h8bZxPgZTe6rUdBs0")
+token = ("")
 client.run(token)
